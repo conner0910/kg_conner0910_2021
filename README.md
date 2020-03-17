@@ -1,0 +1,1 @@
+This code determines if there is a one-to-one mapping from one string to another
