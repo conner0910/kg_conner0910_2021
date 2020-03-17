@@ -7,7 +7,7 @@ function main(str1, str2){
         let char1 = str1.charAt(i);
         let char2 = str2.charAt(i);
         if(Object.keys(mapping).includes(char1)){
-            if(Object.keys(mapping)[char1] !== char2){
+            if(mapping[char1] !== char2){
                 return false;
             }
         }
