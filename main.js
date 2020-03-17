@@ -11,9 +11,6 @@ function main(str1, str2){
                 return false;
             }
         }
-        else if(Object.values(mapping).includes(char2)){ //need to make sure two diff chars dont map to the same char in str2
-            return false;
-        }
         else{ //Add the char to the mapping
             mapping[char1] = char2;
         }        
